@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Delivery</title>
+	<style type="text/css">
+		body { font-family: Arial; }
+
+		fieldset {
+			align-content: center;
+			margin-left: 400px;
+			margin-right: 400px;
+			margin-top: 100px;
+			padding: 30px;
+			border-top: 1px solid grey;
+			background: linear-gradient(white, yellowgreen);
+			opacity: 0.5;
+		}
+
+		table { border ="1"; width: 400px; }
+		
+		div {
+			position: absolute;
+			left: 10px;
+		}
+
+		#case {
+			position: relative;
+			margin-left: 30%;
+		}
+
+		#red { color: red; }
+
+		#col { right: 10px; }
+
+		
+
+	</style>
+</head>
+
+
+<body>
+	
+	<p>Veuillez compléter le formulaire suivant. Les champs marqués d'un <span id="red">*</span> sont obligatoires.<br/></p>
+
+	<form method="get" action="http://bienvu.net/script.php">
+		<fieldset>
+			<legend align="left"><b>Détails de livraison</b></legend>
+
+			<!--<label>Nom <span id="red">*</span></label><span id="col"><input type="text" name="nom" required pattern="^[-a-zA-Z ]+$"/></span>
+			<hr/>
+			<label>Adresse <span id="red">*</span><span id="col"><input type="text" name="adresse" required pattern="^[-a-zA-Z0-9 ]+$"/></span></label>
+			<hr/>
+			<label>Ville<span id="col"><input type="text" name="ville" required pattern="^[-a-zA-Z ]+$"/></span></label>
+			<hr/>
+			<label>Code postal <span id="red">*</span> <span id="col"><input type="text" name="CP" size="5" required pattern="^[0-9]{5}$""/></span></label>
+			<hr/>
+			<label>Pays <span id="red">*</span> <span id="col"><input type="text" name="nom" required pattern="^[-a-zA-Z ]+$"/></span></label>
+			<hr/>
+			<label>Cette adresse est-elle aussi votre adresse de facturation ? <span id="red">*</span>
+				<br/><span id="col"><input type="radio" name="facture" value="Y"> Oui</span>
+				<br/><span id="col"><input type="radio" name="facture" value="N"> Non</span>
+			</label>
+			<hr/>-->
+			
+			<table>
+						<tr>
+							<td>Nom <span id="red">*</span></td>
+							<td class bord><input type="text" name="nom" required pattern="^[-a-zA-Z ]+$"/></td>
+						</tr>
+
+					<tr><td colspan="2"><hr color="grey"/></td></tr>
+
+						<tr>
+							<td>Adresse <span id="red">*</span></td>
+							<td><input type="text" name="adresse" required pattern="^[-a-zA-Z0-9 ]+$"/></td>
+						</tr>
+
+					<tr><td colspan="2"><hr color="grey"/></td></tr>
+
+						<tr>
+							<td>Ville</td>
+							<td><input type="text" name="ville" pattern="^[-a-zA-Z ]+$"/></td>
+						</tr>
+
+					<tr><td colspan="2"><hr color="grey"/></td></tr>
+
+						<tr>
+							<td>Code postal <span id="red">*</span></td>
+							<td><input type="text" name="CP" size="5" required pattern="^[0-9]{5}$"/></td>
+						</tr>
+
+					<tr><td colspan="2"><hr color="grey"/></td></tr>
+
+						<tr>
+							<td>Pays <span id="red">*</span></td>
+							<td><input type="text" name="etat" required pattern="^[-a-zA-Z ]+$"/></td>
+						</tr>
+
+					<tr><td colspan="2"><hr color="grey"/></td></tr>
+
+						<tr>
+							<td colspan="2">Cette adresse est-elle aussi votre adresse de facturation ? <span id="red">*</span></td></tr>
+
+						<tr>
+							<td rowspan="2"></td>
+							<td><input type="radio" name="invoice" value="Y"> Yes</td>
+						</tr>
+
+						<tr>
+							<td><input type="radio" name="invoice" value="N"> No</td></tr>
+
+							<br/>
+
+		</fieldset>
+	</form>
+
+</body>
+</html>

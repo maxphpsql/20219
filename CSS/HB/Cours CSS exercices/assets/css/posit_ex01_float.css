@@ -1,0 +1,18 @@
+/* --------------------------------------------------------
+* Exercices positionnement 
+*
+* @since 07/01/2018
+* @link https://openweb.eu.org/articles/initiation_float 
+* --------------------------------------------------------- */
+#vert 
+{ 
+	background-color: green;	
+	height: 70%; 
+}
+
+#jaune 
+{ 
+	background-color: yellow;
+	float: right;
+	width: 30%;	
+}

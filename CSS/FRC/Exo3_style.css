@@ -1,0 +1,31 @@
+
+		fieldset { margin: 10px; }
+
+		#principal { border: 2px dashed grey; }
+
+		#encart { background-color: lightgrey; }
+
+		#interne { border: 1px dashed lightgrey;
+			margin-left: 50px;
+			margin-right: 50px;
+		}
+
+		a {
+			color: blue;
+			text-decoration: underline ;
+		}
+
+		#tab { margin-left: 20px; }
+
+		#gauche {
+			display: inline-block;
+			width: 70%;
+		}
+
+		#droite {
+			margin-left: 5%;
+			display: inline-block;
+			position: fixed;
+		}
+
+

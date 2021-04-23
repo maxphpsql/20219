@@ -1,0 +1,58 @@
+<!-- ------------------------------------------------------ 
+-- CSS > Présentation > Héritage 
+-- 
+-- @since 17/05/2018
+-- -------------------------------------------------------- -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>CSS > Positionnement 3 colonnes</title>
+   <meta charset="UTF-8">
+    <style>
+    body 
+    {
+        background-color: blue;
+    }
+
+	/* CSS */
+	#centre 
+	{
+	   margin: 1em 25%;
+	   background-color: #FFF; 
+	}
+	
+	#gauche 
+	{
+	   position: absolute;
+	   top: 1em;
+	   left: 1%;
+	   width: 18%;
+	}
+	
+	#droite 
+	{
+	   position: absolute;
+	   top: 1em;
+	   right: 1%;
+ 	   width: 18%;
+ 	}
+	
+	.aqua 
+	{
+	    background-color: #00FFFF; /* aqua */
+	}	
+    </style>
+  </head>
+  <body>
+  <div id="centre">
+  <h1>3 colonnes en positionnement absolu</h1>
+  <p>Donec sed mauris commodo, faucibus turpis sed, fringilla augue. Etiam accumsan molestie tristique. Vestibulum consectetur accumsan quam eu ultri-cies. Aenean hendrerit felis vel massa tincidunt consectetur. Morbi in mas-sa nec lacus molestie fringilla quis at neque. Morbi vestibulum porttitor gravida. Nunc venenatis ullamcorper mauris, a placerat dui semper ut. Quisque porta magna vel ligula lacinia, eu tristique ipsum porta. Class ap-tent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed pretium lobortis ultricies. Ut rutrum nunc nunc, sit amet vulputate est luctus vel. Aliquam dictum mi nec iaculis eleifend. Maecenas dolor orci, sodales vel erat vitae, viverra dictum mi. Vestibulum eu vesti-bulum metus. Sed commodo lorem eget felis auctor vulputate.</p>     
+  </div>
+  <div id="gauche" class="aqua">
+  [ GAUCHE ]
+  </div>
+  <div id="droite" class="aqua">	
+  [ DROITE ]
+  </div>  
+</body>
+</html>

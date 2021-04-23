@@ -1,0 +1,8 @@
+URL de téléchargmeent de la base Northwind en MySQL/MariaDB
+___________________________________________________________
+
+https://www.aspsnippets.com/Articles/Download-and-Install-Microsoft-Northwind-Sample-database-in-MySql.aspx
+
+https://code.google.com/archive/p/northwindextended/downloads
+
+[25/04/2018] 

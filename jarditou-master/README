@@ -1,0 +1,62 @@
+Projet évolutif d'un site de magasin de jardinage.
+De Valentin Lengaigne
+
+Au fil des cours sur les différentes technologies web, on ajoute au site ces novelles technologies.
+
+
+Technologies implémentées :
+HTML
+CSS
+Git
+Bootstrap
+JavaScript
+Base de données/SQL
+PHP
+
+
+HTML :
+Création de trois pages en HTML5
+index, tableau et contact
+index est notre accueil, elle utilise les différentes balises importantes du HTML5 (header, footer, section, etc)
+tableau est une liste de produits, elle utilise un tableau pour la mise en forme d'informations
+contact est un formulaire pour contacter le service client, elle utilise les différentes balises form pour envoyer des infos
+Les trois pages sont accessibles l'une à l'autre, reprennent la meme structure de balises pour une future intégration de style commun en CSS et respetent les normes W3C
+
+CSS :
+Création de deux feuilles de style en CSS
+styles et mobile
+styles est le style par défaut utilisé par les différentes pages du site, il est utilisé pour un écran d'ordinateur de taille standard
+mobile est le style utilisé par les différentes pages du site sur les écrans de 768px de largeur et moins, il est prévu pour une utilisation mobile du site
+Les deux styles sont utilisés par toutes les pages en fonction de la résolution d'écran, utilisent des noms génériques ou spécifiques en prévision de futures ajouts de pages ou de codes dans les pages existantes et respectent les normes W3C
+
+Git :
+Création d'un dépot Git local pour le projet
+Création d'un dépot Git distant sur GitHub
+Dépots configurés et prêts à recevoir les futures versions versions du projet
+
+Bootstrap :
+Recréation des 3 pages HTML en utilisant les class Bootstrap
+utilisation de la class navbar pour des menus dynamiques
+utilisation de grille pour faciliter la mise en page
+utilisation de la class table pour faire un tableau dynamiques
+utilisation de la classe form-group pour créer un formulaire dynamiques
+Toutes les pages s'adaptent à la taille de l'écran pour une utilisation mobile et respetent les normes W3C
+
+JavaScript :
+Réalisation d'une page HTML et de 3 fichiers JavaScript
+création d'une page HTML en Bootstrap, appelant un fichier JavaScript
+la page affiche un menu pour executer le code des différents exercices de l'évaluation JavaScript et y affichent les résultats
+création d'un fichier JavaScript pour la vérfication du formulaire de la page contact.html en Bootstrap et réécriture de la page contact.html en conséquence (utilisation de classes Bootstrap pour l'affichage des erreurs)
+création d'un fichier JavaScript pour la vérfication du formulaire de la page contact.html en CSS et réécriture de la page contact.html en conséquence (utilisation de classes maison en CSS et injustion d'HTML en JavaScript pour l'affichage des erreurs)
+gestion des différentes erreurs pouvant être entrées par l'utilisateur
+
+Base de données/SQL :
+Réalisation de 2 fichiers SQL contenant les requêtes à écrire pour l'Evaluation Base de données
+création d'un fichier SQL EvaluationSQL1, contenant les requètes pour créer une base dont le modèle est donné dans ennoncé et créer un index spécifique
+création d'un fichier SQL EvaluationSQL2, contenant les requètes pour appeler la base de données NorthWind et donner le resultat demandé dans l'ennoncé
+
+PHP :
+Recréation du site utilisant Bootstrap en PHP
+Tout le site est desormé uniforme, avec un header et un footer dans des fichiers PHP spécifiques, utilisées par toutes les pages.
+Le Formulaire de contact est constitué de trois pages PHP, une page qui verifie les infos passées et qui affiche soit la page de formulaire, soit la page de avec les infos passées en POST
+Et enfin, la page Tableau, qui est le plus gros travail de la nouvelle version du site, la page communique avec la base de données pour afficher les produits dynamiquement. On peut consulter des pages produits spécifiques, qui donnent les infos complètes sur le produit, puis donne l'option de modifier ou supprimer le produit. Modifier donne un formulaire, qui enverra les données du formulaire à un script qui changera les données produits dans la base. Supprimer donne une page de confirmation de suppression, qui enverra ou non la demande à un script de suppression du produit dans la base. Enfin, le tableau a un bouton ajouter, qui mène à un formulaire d'ajout de produit, une fois rempli, le formulaire enverre les données à un script qui créera un nouveau produit dans la base, avec possibilité d'y adjoindre une image. Toutes les données des formulaires sont vérifiées 3 fois pour être sur que les valeurs envoyées à la base respectent sa structure, il y a une vérfication au niveau du HTML, avec infos à respectés dans les balises des formulaires, une deuxième vérfication JavaScript, qui vérifie les champs au fur et à mesure qu'ils sont remplis puis une dernière fois au moment de l'envoie du formulaire et une troisème et dernière vérification au niveau du script PHP, les données sont verifiées et formatées avant d'être envoyées à la base.

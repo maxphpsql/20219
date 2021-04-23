@@ -1,0 +1,15 @@
+/* --------------------------------------------------------
+* Polices : exercice 01 
+*
+* @since 07/01/2018
+* @link https://developer.mozilla.org/fr/docs/Web/CSS/font-size
+* @link http://www.scopart.fr/un-guide-simple-pour-la-typographie-responsive
+* @link https://www.smashingmagazine.com/2016/05/fluid-typography 
+* --------------------------------------------------------- */
+html {
+	font-size: 100%;
+}
+
+h1 {
+	font-size: 2rem;
+}

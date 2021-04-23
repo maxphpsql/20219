@@ -1,0 +1,8 @@
+Note pour les formateurs :
+
+les fichiers avec les extensions .loo, .lo1, .lo2 etc. sont à ouvrir avec 
+le logiciel de conception de MCD Looping, disponible ici :
+
+https://www.looping-mcd.fr
+
+[HB, 11/08/2020]

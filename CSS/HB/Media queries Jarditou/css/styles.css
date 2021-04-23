@@ -1,0 +1,119 @@
+/* --------------------------------------------------------
+* jarditou_responsive
+* --------------------------------------------------------- */
+
+/* 15/08/2018
+* https://www.sitepoint.com/understanding-and-using-rem-units-in-csss
+*/
+
+html {
+	font-size: 100%;     
+}
+
+body {
+	font-size: 1rem;
+}
+
+/* --------------------------------------------------------
+* MOBILES
+* --------------------------------------------------------- */
+
+@media screen and (max-width: 768px) 
+{    	 
+	nav, footer {
+		background-color: #000;
+		padding: 5px;	
+	}
+
+	/*
+	#menu li, footer ul li {
+		display: inline;
+	}
+	*/
+
+	#menu {
+		list-style-type: none;
+	}
+
+	#menu a, footer a { 
+		color: #FFF; }
+
+	#gauche {
+		margin-bottom: 5px;
+		width: 100%;
+	}
+
+	#droite {
+		display: none; 
+	}
+		
+	.image {
+		margin: 5px 0;	
+		padding: 0;	
+	}
+
+	/* ajout d'une classe pour rendre les images responsive, mais pas sur toutes les images 
+	(le logo, de petite taille, n'en a pas besoin) */
+	.img_responsive {
+		max-width: 100%; 
+		height: auto;
+	}
+}
+
+/* --------------------------------------------------------
+* GRANDS ECRANS
+* --------------------------------------------------------- */
+
+@media screen and (min-width: 769px) 
+{	
+    html {
+		 width: 100%;	
+	}
+
+	body {
+		width: 1110px;
+		margin: auto;	
+	}
+	
+	nav, footer {
+		background-color: #000;
+		padding: 5px;	
+	}
+
+	#menu li, footer ul li {
+		display: inline;
+	}
+
+	#menu {
+		list-style-type: none;
+	}
+
+	#menu a, footer a { 
+		color: #FFF; }
+
+	#gauche {
+		margin-bottom: 5px;
+	}
+
+	#droite {
+		background-color: #CCC;
+		float: right;
+		height: 500px;
+		width: 30%;
+		margin-bottom: 5px;
+	}
+	
+	.image {
+		margin: 5px 0;	
+		padding: 0;	
+	}
+	
+	footer {
+	   clear: both;        
+	}
+
+	.image img {
+		max-width: 100%;
+		height: auto;
+	}
+}

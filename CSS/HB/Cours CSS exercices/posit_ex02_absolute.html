@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <link rel="stylesheet" href="assets/css/posit_ex01_float.css">
+  </head>
+  <body> 
+   <div id="rouge">
+	     <!-- ATTENTION : le div2 (flottant) doit être avant le div1 (vert) dans le code, sinon il se placera en-dessous du div1 -->
+	     <div id="jaune">Je suis le bloc #jaune. flottant à droite.
+	                     <br>J'ai une largeur de 30%.
+	                     <br>Je dois être placé dans le code <b>avant</b> l'élément flottant.
+	                     <br>Ma balise html div est en dehors de celle de #vert. 
+	                     <br>Mes marges et paddings sont celles par défaut (ni redéfinies ni désactivées dans le fichier CSS).
+	                     <br><br>Voici mon code CSS :<br>            
+	                     <code>
+					         <br>#jaune<br> 
+							   {<br> 
+							  	   background-color: yellow;<br>
+									float: right;<br>
+									width: 30%;<br>	
+							   }<br>
+	                     </code> 		          
+	     </div> 	
+	     <div id="vert">	
+		     Je suis le bloc #vert.
+		     <br><br>Je suis plus grand que le bloc #jaune flottant.
+		     <br><br>Je dois être placé dans le code après l'élément flottant.
+		     <br><br>Je n'ai pas de div parent (directement sous la balise body).
+		     <br><br>Mes marges et paddings sont celles par défaut (ni redéfinies ni désactivées dans le fichier CSS).
+		     <br><br><br>Voici mon code CSS :<br><br>
+	        <code>
+	        #vert<br> 
+			  {<br> 
+			  	   background-color: green;<br>	
+			  }
+	        </code> 		 
+		</div>	
+	</div>	
+  </body>
+</html>

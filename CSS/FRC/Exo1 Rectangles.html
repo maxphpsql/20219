@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exo1_Rectangles.html</title>
+	<style type="text/css">
+
+		
+		div {
+			z-index: 0;
+			background-color: blue;
+			position: 0px 0px 0px 0px;
+			width: 1000px;
+			height: 100px;
+		}
+
+		#vert {
+			z-index: 1;
+			border-left: 2px solid black;
+			border-right: 2px solid black;
+			border-top: 2px solid black;
+			background-color: green;
+			position: relative;
+			height: 70%;
+			width:100%;
+
+		}
+
+		#jaune {
+			z-index: 2;
+			background-color: yellow;
+			border-right: 2px solid black;
+			border-bottom: 2px solid black;
+			position: relative;
+			margin-left: 70%;
+			height: 30%;
+			width: 30%;
+			right: 0px;
+			bottom: 0px;
+		}
+
+		#rouge {
+			z-index: 3;
+			background-color: red;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			position: relative;
+			margin-left: 70%;
+			height: 100%;
+			width: 30%;
+			right: 2px;
+			top: 0px;
+		}
+
+
+	</style>
+</head>
+
+
+<body>
+	<div>
+		<div id="vert"><div id="rouge"></div></div>
+		<div id="jaune"></div>
+
+	</div>
+
+</body>
+</html>
